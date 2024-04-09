@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wisdom</string>
+    <string name="next_button">Наступна мудрість</string>
+    <string name="saved_thoughts">Збережені цитати</string>
+    <string name="save_thoughts">Зберегти цитату</string>
+    <string name="quotes">Цитати видатних людей</string>
+    <string name="go_back">Повернутися назад</string>
+    <string name="bill_gates_quote">"Життя стає набагато веселішим, якщо підходити до всіх його викликів творчо." - Білл Гейтс</string>
+    <string name="forest_gump_quote">"Життя схоже на коробку шоколадних цукерок, ніколи не знаєш, що отримаєш." - Форрест Гамп</string>
+    <string name="abraham_lincoln_quote">"Найкращий спосіб передбачити майбутнє — створити його." - Абрахам Лінкольн</string>
+    <string name="henry_ford_quote">"Успішні люди вириваються вперед, використовуючи той час, який решту використовують марно." - Генрі Форд</string>
+    <string name="robert_frost_quote">"У двох словах я можу підсумувати все, що я дізнався про життя: воно триває." - Роберт Фрост</string>
+    <string name="billy_herrington_quote">"Let us remember these timeless words: Ass♂we♂can." - Біллі Херрінгтон</string>
+    <string name="mae_west_quote">"Ви живете лише один раз, але якщо ви робите це правильно, то і одного разу достатньо." - Мей Вест</string>
+    <string name="joanne_rowling_quote">"Не варто зациклюватися на мріях і забувати жити." - Джоан Роулінг</string>
+    <string name="nelson_mandela_quote">"Найбільша слава в житті полягає не в тому, щоб ніколи не падати, а в тому, щоб підніматися кожного разу, коли ми падаємо." - Нельсон Мандела</string>
+    <string name="lao_tzu_quote">"Подорож у тисячу миль починається з одного кроку." - Лао-цзи</string>
+</resources>

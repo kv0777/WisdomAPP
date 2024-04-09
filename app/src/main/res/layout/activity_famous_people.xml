@@ -1,0 +1,204 @@
+<!-- activity_famous_people.xml -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_quote">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Кнопка "Назад" -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:text="@string/go_back"
+            android:textColor="@color/white" />
+
+        <!-- Фотографія та цитата Білла Гейтса -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="bill_gates"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bill_gates" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/bill_gates_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Форреста Гампа -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="forrest_gump"
+            android:scaleType="centerCrop"
+            android:src="@drawable/forrest_gump" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/forest_gump_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Абрахама Лінкольна -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="abraham_lincoln"
+            android:scaleType="centerCrop"
+            android:src="@drawable/abraham_lincoln" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/abraham_lincoln_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Форда -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="henry_ford"
+            android:scaleType="centerCrop"
+            android:src="@drawable/henry_ford" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/henry_ford_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Форда -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="robert_frost"
+            android:scaleType="centerCrop"
+            android:src="@drawable/robert_frost" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/robert_frost_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Форда -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="billy_herrington"
+            android:scaleType="centerCrop"
+            android:src="@drawable/billy_herrington" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/billy_herrington_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Форда -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="mae_west"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mae_west" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/mae_west_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Форда -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="joanne_rowling"
+            android:scaleType="centerCrop"
+            android:src="@drawable/joanne_rowling" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/joanne_rowling_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Форда -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="nelson_mandela"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nelson_mandela" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/nelson_mandela_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- Фотографія та цитата Форда -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="lao_tzu"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lao_tzu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:text="@string/lao_tzu_quote"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>
